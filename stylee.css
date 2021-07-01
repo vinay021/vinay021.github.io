@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300&display=swap');
+body {
+  background-color: #ffd018;
+  overflow-x:hidden ;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  margin: 0px 900px;
+  display: table-cell;
+}
+.ul {
+  margin: 15px 1000px;
+  display: flex;
+}
+.nav ul li {
+  margin: 0px 10px;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Akaya Kanadaka", sans-serif;
+  position: relative;
+}
+
+@keyframes naving {
+  0% {
+    left: 25px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.nav ul li:hover {
+  color: black;
+  animation: naving;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.imgmain {
+  margin: 20px 218px;
+  display: flex;
+}
+.op {
+  margin: 20px 235px;
+  display: flex;
+}
+.h3 {
+  font-size: 11.1px;
+  width: 347px;
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: -40px 279px;
+  color: rgb(77, 75, 75);
+}
+.op1 {
+  margin: -108px 743px;
+  display: flex;
+}
+.h4 {
+  font-size: 11.1px;
+  width: 347px;
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 88px 809px;
+  color: rgb(77, 75, 75);
+}
+.vertical {
+  margin: -97px 669px;
+  display: flex;
+  width: 1px;
+}
+.sc {
+    margin: -316px 515px;
+    display: flex;
+    width: 1px;
+    height: 407px;
+}
+.horizontal {
+    margin: -2px 152px;
+    display: flex;
+    height: 3px;
+    width: 1060px;
+}
+
+.navv {
+  margin: 0px 900px;
+  display: table-cell;
+}
+.ull {
+    margin: 22px 932px;
+    display: flex;
+}
+.sub {
+    margin: 0px 8px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    position: relative;
+}
+
+@keyframes naving {
+  0% {
+    left: 25px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.sub:hover {
+  color: black;
+  animation: naving;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.ee{
+    display: flex;
+    margin: 6px 246px;
+}
+.jkl1{
+    display: flex;
+    margin: 0px 580px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    width: 100px;
+    font-size: 20px;
+}
+.input1{
+    display: flex;
+    margin: -34px 703px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    width: 361px;
+    border: 2px solid rgb(218, 215, 215);
+    background: #c7b15a;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.jkl2{
+    display: flex;
+    margin: 64px 580px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    width: 100px;
+    font-size: 20px;
+}
+.input2{
+    display: flex;
+    margin: -94px 703px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    width: 361px;
+    border: 2px solid rgb(218, 215, 215);
+    background: #c7b15a;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.jkl3{
+    display: flex;
+    margin: 122px 580px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    width: 100px;
+    font-size: 20px;
+}
+.input3{
+    display: flex;
+    margin: -151px 703px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    width: 361px;
+    border: 2px solid rgb(218, 215, 215);
+    background: #c7b15a;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.jkl4{
+    display: flex;
+    margin: 180px 580px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    width: 100px;
+    font-size: 20px;
+}
+.input4{
+    display: flex;
+    margin: -215px 703px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    width: 361px;
+    border: 2px solid rgb(218, 215, 215);
+    background: #c7b15a;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.jkl5{
+    display: flex;
+    margin: 248px 580px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    width: 100px;
+    font-size: 20px;
+}
+.input5{
+    display: flex;
+    margin: -283px 703px;
+    font-family: "Akaya Kanadaka", sans-serif;
+    width: 361px;
+    border: 2px solid rgb(218, 215, 215);
+    background: #c7b15a;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.submit{
+    display: flex;
+    width: 106px;
+    align-items: center;
+    font-size: 22px;
+    justify-content: center;
+    margin: 316px 909px;
+    height: 34px;
+    border-radius: 10px;
+    background: none;
+    border: 2px solid rgb(95, 94, 94);
+    font-family: "Akaya Kanadaka", sans-serif;
+}
+
+.submit:hover{
+    background: black;
+    color: white;
+}
+.horizontal1 {
+    margin: -278px 152px;
+    display: block;
+    height: 3px;
+    width: 1060px;
+}
+.f{
+    margin: 287px 560px;
+    display: block;
+    width: 298px;
+    margin-bottom: 13px;
+    font-size: 17px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.last{
+    margin: 9px 464px;
+    display: inline-block;
+    width: 498px;
+    font-size: 18px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.iop{
+    margin: -65px -10px;
+    display: inline-block;
+}
+.lp{
+    margin: 79px -34px;
+    display: block;
+}
